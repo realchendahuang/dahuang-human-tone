@@ -15,7 +15,9 @@ metadata:
 
 它做一件事：**把"像模型在表演写作"的文本，拉回"像具体人在当前场景下说话"**。删的是模板壳、路标词、升华收尾、假互动——不是堆替换词。保的是信息、事实、立场、术语、作者锋利——不是抹平成"干净中性说明书"。
 
-姐妹 skill [`dahuang-ai-tone`](https://github.com/realchendahuang/dahuang-ai-tone) 是味标本馆（加味 + 找味），这个 skill 是清洗剂（去味）。知道了什么是 AI 味，才能去掉它；但去味不是无脑删词，是改组织方式。配套使用：先用 `dahuang-ai-tone` 搞清楚什么是 AI 味、像哪个模型，再用本 skill 清洗。
+去味不是无脑删词，是改组织方式。
+
+姐妹 skill：[`dahuang-ai-tone`](https://github.com/realchendahuang/dahuang-ai-tone)——把文本加成 GPT/Claude/Gemini/豆包的味，或者检测 AI 味在哪、像哪个风格。
 
 ## 去味工作流
 

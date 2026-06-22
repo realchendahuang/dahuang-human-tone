@@ -1,7 +1,7 @@
 interface:
   display_name: "Dahuang Human Tone"
   short_description: "去除中文文本的 AI 味——删模板壳、删路标词、删升华收尾，保信息保风格"
-  default_prompt: "Use $dahuang-human-tone to remove AI flavor from this Chinese text (delete template shells, signposting, elevation endings, fake engagement — preserve facts, stance, terms, author voice — change structure not swap synonyms)."
+  default_prompt: "Use $dahuang-human-tone 去掉下面这段中文里的 AI 味——删模板壳、删路标词、删升华收尾、删假互动，保信息保风格，改结构不做机械同义词替换："
 capabilities:
   - humanize: 去除中文文本的 AI 味（删壳保信息，不做同义词替换）
   - audit: 诊断模式（只标问题不改，指出 AI 味在哪、是什么味、怎么改）

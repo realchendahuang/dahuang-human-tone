@@ -1,7 +1,7 @@
 # Dahuang Human Tone
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Skill Version](https://img.shields.io/badge/Skill-v1.2.0-111827.svg)](CHANGELOG.md)
+[![Skill Version](https://img.shields.io/badge/Skill-v2.0.0-111827.svg)](CHANGELOG.md)
 [![Language](https://img.shields.io/badge/Language-中文写作-e11d48.svg)](skills/dahuang-human-tone/SKILL.md)
 
 > 中文去 AI 味 Skill。清理模板腔、路标词、升华收尾、假互动和段落同构，同时保留事实、观点、术语与作者原有的表达力度。
@@ -15,6 +15,8 @@ npx skills add realchendahuang/dahuang-human-tone -g
 很多中文 AI 文本的信息没有问题，读起来却很像模型在执行一套固定写作流程：先铺背景，再分点解释，接着拔高意义，最后补一句互动。
 
 Dahuang Human Tone 会先判断文本场景，再做最小范围的改写。它优先调整信息的组织方式，减少机械同义词替换，也不会凭空编造经历、情绪和立场。
+
+它只做写作诊断，不判断文本是否由 AI 或某个模型生成；段落长度、句式和词频只作为复查线索，不作为检测结论。
 
 ## 一分钟上手
 
@@ -129,7 +131,6 @@ cp -r dahuang-human-tone/skills/dahuang-human-tone ~/.claude/skills/
 └── skills/
     └── dahuang-human-tone/
         ├── SKILL.md
-        ├── README.md
         ├── agents/openai.yaml
         ├── examples/
         │   ├── audit.md
@@ -139,7 +140,8 @@ cp -r dahuang-human-tone/skills/dahuang-human-tone ~/.claude/skills/
             ├── deep-tells.md
             ├── shape-audit.md
             ├── guardrails.md
-            └── soul.md
+            ├── soul.md
+            └── sources.md
 ```
 
 ## 核心文档
@@ -169,4 +171,4 @@ cp -r dahuang-human-tone/skills/dahuang-human-tone ~/.claude/skills/
 
 ## 致谢
 
-本项目吸收了 Humanizer、Humanizer-zh、stop-slop、writing-humanizer、shuorenhua 等开源项目的公开方法和经验。完整来源见 [Skill 包说明](skills/dahuang-human-tone/README.md#参考来源)。
+本项目吸收了 Humanizer、Humanizer-zh、stop-slop、writing-humanizer、shuorenhua 等开源项目的公开方法和经验。完整来源见 [方法来源](skills/dahuang-human-tone/references/sources.md)。

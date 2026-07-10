@@ -2,17 +2,3 @@ interface:
   display_name: "Dahuang Human Tone"
   short_description: "清理中文 AI 模板腔与结构痕迹，保留事实、观点、术语和作者风格"
   default_prompt: "Use $dahuang-human-tone 清理下面这段中文里的 AI 味。优先调整组织方式和句式结构，删除模板腔、路标词、升华收尾、假互动与段落同构；保留事实、术语、观点和原有语气："
-capabilities:
-  - humanize: 清理中文文本中的 AI 模板腔和结构痕迹
-  - audit: 只诊断问题、归类痕迹并给出修改方向
-resources:
-  entry: SKILL.md
-  references:
-    - references/patterns.md
-    - references/deep-tells.md
-    - references/shape-audit.md
-    - references/guardrails.md
-    - references/soul.md
-  examples:
-    - examples/before-after.md
-    - examples/audit.md

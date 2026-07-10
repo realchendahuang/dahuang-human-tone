@@ -1,9 +1,9 @@
 ---
 name: dahuang-human-tone
-description: "去除中文文本的 AI 味。删模板壳、路标词、升华收尾、假互动，改结构不改词，保信息保风格。触发：去AI味、去味、人味、改自然点、不像AI写的、太像AI了、humanize。"
+description: "中文文本去 AI 味与诊断 Skill。清理模板腔、路标词、升华收尾、假互动和段落同构；优先调整组织方式，保留事实、术语、观点与作者风格。适用于去AI味、改自然点、改成人话、humanize、只诊断不改写。"
 license: MIT
 metadata:
-  version: "1.1.0"
+  version: "1.2.0"
   author: realchendahuang
 ---
 

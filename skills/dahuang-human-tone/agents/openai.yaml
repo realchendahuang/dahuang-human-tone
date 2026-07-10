@@ -1,4 +1,4 @@
 interface:
   display_name: "Dahuang Human Tone"
-  short_description: "清理中文 AI 模板腔与结构痕迹，保留事实、观点、术语和作者风格"
-  default_prompt: "Use $dahuang-human-tone 清理下面这段中文里的 AI 味。优先调整组织方式和句式结构，删除模板腔、路标词、升华收尾、假互动与段落同构；保留事实、术语、观点和原有语气："
+  short_description: "按体裁和作者声纹去除中文 AI 味，保护事实与专业含义"
+  default_prompt: "Use $dahuang-human-tone 以标准强度改写下面的文本：先保护事实、引用、术语和观点，再按体裁清理结构与模板痕迹，并保留作者原有声音。"

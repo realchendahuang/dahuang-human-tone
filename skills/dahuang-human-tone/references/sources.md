@@ -5,6 +5,10 @@
 - [blader/humanizer](https://github.com/blader/humanizer)
 - [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh)
 - [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop)
+- [jpeggdev/humanize-writing](https://github.com/jpeggdev/humanize-writing)
+- [momo2young/humanize-academic-writing](https://github.com/momo2young/humanize-academic-writing)
+- [worldwonderer/oh-story-claudecode](https://github.com/worldwonderer/oh-story-claudecode)
+- [zc277584121/marketing-skills](https://github.com/zc277584121/marketing-skills)
 - [B1lli/remove-ai-flavor-writing-skill](https://github.com/B1lli/remove-ai-flavor-writing-skill)
 - [shyuan/writing-humanizer](https://github.com/shyuan/writing-humanizer)
 - [kevintsai1202/Humanizer-zh-TW](https://github.com/kevintsai1202/Humanizer-zh-TW)
@@ -15,3 +19,5 @@
 - [Wikipedia: Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing)
 
 引用这些资料不代表认可其中的来源检测结论。模式清单只用于编辑诊断，不用于判断文本由 AI 生成。
+
+2026-07-10 的生态对比、安装量、GitHub 热度和取舍记录见[仓库调研文档](https://github.com/realchendahuang/dahuang-human-tone/blob/main/docs/humanizer-landscape-2026-07.md)。

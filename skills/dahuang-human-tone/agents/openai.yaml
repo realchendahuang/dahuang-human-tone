@@ -1,10 +1,10 @@
 interface:
   display_name: "Dahuang Human Tone"
-  short_description: "去除中文文本的 AI 味——删模板壳、删路标词、删升华收尾，保信息保风格"
-  default_prompt: "Use $dahuang-human-tone 去掉下面这段中文里的 AI 味——删模板壳、删路标词、删升华收尾、删假互动，保信息保风格，改结构不做机械同义词替换："
+  short_description: "清理中文 AI 模板腔与结构痕迹，保留事实、观点、术语和作者风格"
+  default_prompt: "Use $dahuang-human-tone 清理下面这段中文里的 AI 味。优先调整组织方式和句式结构，删除模板腔、路标词、升华收尾、假互动与段落同构；保留事实、术语、观点和原有语气："
 capabilities:
-  - humanize: 去除中文文本的 AI 味（删壳保信息，不做同义词替换）
-  - audit: 诊断模式（只标问题不改，指出 AI 味在哪、是什么味、怎么改）
+  - humanize: 清理中文文本中的 AI 模板腔和结构痕迹
+  - audit: 只诊断问题、归类痕迹并给出修改方向
 resources:
   entry: SKILL.md
   references:

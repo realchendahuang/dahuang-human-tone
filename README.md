@@ -1,8 +1,11 @@
 # Dahuang Human Tone
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Skill Version](https://img.shields.io/badge/Skill-v3.0.0-111827.svg)](CHANGELOG.md)
-[![Language](https://img.shields.io/badge/Language-中文写作-e11d48.svg)](skills/dahuang-human-tone/SKILL.md)
+[![GitHub stars](https://img.shields.io/github/stars/realchendahuang/dahuang-human-tone?style=social)](https://github.com/realchendahuang/dahuang-human-tone)
+[![GitHub forks](https://img.shields.io/github/forks/realchendahuang/dahuang-human-tone?style=social)](https://github.com/realchendahuang/dahuang-human-tone/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/realchendahuang/dahuang-human-tone)](https://github.com/realchendahuang/dahuang-human-tone/issues)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/realchendahuang/dahuang-human-tone/pulls)
+[![Follow @realchendahuang](https://img.shields.io/badge/Follow-%40realchendahuang-1DA1F2?logo=x&logoColor=white)](https://x.com/realchendahuang)
 
 > 中文优先的 Humanizer Skill。先保护事实、论点和作者声音，再按体裁修结构、句式和模板痕迹。
 
